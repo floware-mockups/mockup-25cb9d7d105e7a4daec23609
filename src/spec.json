@@ -1,0 +1,199 @@
+{
+  "title": "Gestione inventario arredi scolastici",
+  "description": "Prototipo navigabile per registrare e consultare arredi per aula, quantità e stato di conservazione, con dati di fantasia.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "dashboard",
+      "title": "Dashboard",
+      "description": "Panoramica dell’inventario e accesso alle funzioni principali.",
+      "metrics": [
+        {
+          "label": "Aule registrate",
+          "value": "6"
+        },
+        {
+          "label": "Arredi inventariati",
+          "value": "42"
+        },
+        {
+          "label": "In buono stato",
+          "value": "30"
+        },
+        {
+          "label": "Da verificare",
+          "value": "7"
+        }
+      ],
+      "columns": [
+        "Aula",
+        "Arredo",
+        "Quantità",
+        "Stato di conservazione"
+      ],
+      "rows": [
+        [
+          "Lume 1",
+          "Banco modulare",
+          "12",
+          "Buono"
+        ],
+        [
+          "Vela 2",
+          "Sedia impilabile",
+          "18",
+          "Da verificare"
+        ],
+        [
+          "Nubi 3",
+          "Armadio basso",
+          "2",
+          "Ottimo"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "inventario",
+      "title": "Inventario arredi",
+      "description": "Elenco filtrabile degli arredi per aula, quantità e stato di conservazione.",
+      "metrics": [],
+      "columns": [
+        "Aula",
+        "Arredo",
+        "Quantità",
+        "Stato di conservazione"
+      ],
+      "rows": [
+        [
+          "Lume 1",
+          "Banco modulare",
+          "12",
+          "Buono"
+        ],
+        [
+          "Lume 1",
+          "Sedia impilabile",
+          "14",
+          "Buono"
+        ],
+        [
+          "Lume 1",
+          "Armadio basso",
+          "1",
+          "Ottimo"
+        ],
+        [
+          "Vela 2",
+          "Banco modulare",
+          "10",
+          "Da verificare"
+        ],
+        [
+          "Vela 2",
+          "Sedia impilabile",
+          "18",
+          "Da verificare"
+        ],
+        [
+          "Vela 2",
+          "Libreria mobile",
+          "2",
+          "Buono"
+        ],
+        [
+          "Nubi 3",
+          "Tavolo attività",
+          "4",
+          "Buono"
+        ],
+        [
+          "Nubi 3",
+          "Sedia impilabile",
+          "16",
+          "Buono"
+        ],
+        [
+          "Nubi 3",
+          "Armadio basso",
+          "2",
+          "Ottimo"
+        ],
+        [
+          "Lume 4",
+          "Banco modulare",
+          "11",
+          "Da riparare"
+        ],
+        [
+          "Lume 4",
+          "Sedia impilabile",
+          "15",
+          "Buono"
+        ],
+        [
+          "Lume 4",
+          "Carrello materiali",
+          "1",
+          "Da verificare"
+        ],
+        [
+          "Vela 5",
+          "Tavolo attività",
+          "5",
+          "Ottimo"
+        ],
+        [
+          "Vela 5",
+          "Sedia impilabile",
+          "20",
+          "Buono"
+        ],
+        [
+          "Vela 5",
+          "Libreria mobile",
+          "3",
+          "Da verificare"
+        ],
+        [
+          "Nubi 6",
+          "Banco modulare",
+          "9",
+          "Buono"
+        ],
+        [
+          "Nubi 6",
+          "Sedia impilabile",
+          "17",
+          "Da riparare"
+        ],
+        [
+          "Nubi 6",
+          "Armadio basso",
+          "1",
+          "Buono"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "nuovo-arredo",
+      "title": "Registra un arredo",
+      "description": "Aggiungi una voce all’inventario indicando aula, arredo, quantità e stato.",
+      "metrics": [],
+      "columns": [
+        "Aula",
+        "Arredo",
+        "Quantità",
+        "Stato di conservazione"
+      ],
+      "rows": [],
+      "form": [
+        "Aula",
+        "Arredo",
+        "Quantità",
+        "Stato di conservazione"
+      ]
+    }
+  ]
+}
